@@ -9,7 +9,7 @@ COPY . /app
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Install Node dependencies (if needed)
-RUN npm install
+# RUN npm install
 
 EXPOSE 8000
 
