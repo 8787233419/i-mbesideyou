@@ -1,0 +1,163 @@
+﻿Mess-i General Guidelines
+Mess-i is a system to digitalize the mess system in our hostels developed by DevCom.
+How to use it?
+* ID Card - Tap the ID card on the NFC scanner. If you are using it for the first time, you would be prompted to scan the bar code on your ID card. This is a one-time process. Your name and details would appear on the tablet and you can take your meal.
+* InstiApp - We understand that you might not always have your ID card with you. In such cases, you can use InstiApp to take your meal. Make sure you have the latest version of the InstiApp (https://play.google.com/store/apps/details? id=app.insti.flutter&hl=en&gl=US) installed and that you have logged in. You can scan the QR code in Mess→Take Your Meal→ Take Your Meal to take your meal.
+What are the problems that can happen?
+* ID card is not recognized - If the NFC scanner does not respond to your ID card, it is because the NFC chip in the ID card has stopped working. Please visit the ID card office in the main building to resolve this issue. Meanwhile, you can use InstiApp to take your meals.
+* The hostel is not updated - If the tablet is showing that you are in a different hostel, then please get in touch with the hall manager to make sure that this data is updated in ASC.
+* Different person shows up while scanning - Scan again. If this does not work, write to us at devcom@iitb.ac.in with the roll number of the person shown when you scan.
+
+
+Mess-I Tablet User Manual
+Mess-i is a system to digitalize the mess system in our hostels developed by DevCom.
+Contact Us
+mail - devcom@iitb.ac.in
+Current Leads: Kanika Sharma +91 7045831582
+Satyam Tripathi +91 8787233419
+Demo Video
+https://drive.google.com/file/d/1RAqdZZVLEC69l6VPBY_k2jkrWy3VPVaW/view?usp=sharing
+Features
+Mess-i dashboard https://instamess.gymkhana.iitb.ac.in/dashboard/login
+1. Online Rebate - Students can apply for the rebates from the dashboard directly and the Mess Cos and Mess Managers can approve or deny their requests easily.
+Students can specify whether the rebates are for official purpose by clicking the toggle button and uploading the necesary documents.
+Note-: The Mess Cos and Mess manager can accept or reject the rebates from this page.
+1. Mess Statistics - Students can view their meal statistics (count, etc), mess managers and mess councilors can view statistics(meal count,etc) of their respective hostels on the mess-i dashboard itself.
+These statistics can also be used to estimate the amount of food wastage.
+1. Private Mess-managers login - The private hostel mess-managers with no LDAP id can also use our dashboard to access other features by logging in without SSO with the credentials given via mail by DEVCOM. (Contact project leads to create a new ID for your hostel’s manager) (Mess Councilors also have admin access, they can simply login with their ldap)
+1. Guest Entry - Students can book meals in messes in advance on the dashboard and pay offline at at counter. Mess managers/Mess COs can set limit of how many guests can take meals in their messes and prepare meals accordingly. Once tokens are created, admins can also verify the payment status and update if they have paid or they did not show up.
+
+If a particular students doesn’t show up after booking a token more than 5 times then a note is displayed on dashboard.
+
+Guidelines for new tablet setup
+   1. Download the base apk from the drive
+
+ https://drive.google.com/drive/folders/19cTKLSacAgk9xv6luHlhKspkYljU1iD3
+
+   2. Run the apk and let it install the mess-i app
+
+   3. Login using sso and authorize its use for mess-i
+
+      1. After authorizing the setup page will be loaded. Enter the hostel number
+      2. If in case your are not able to access, contact the proejct leads.
+Please note format for writing hostel number is “H(number)” eg: H1, H13
+There should be no space between the capital H and the hostel number, and there is no need to write “Hostel1”; it should only say “H1”
+Select cards as per your use case. If you are using non-meal cards (milk, egg, or fruit), you have to mention the total number of such cards in the number of non-meal cards box.
+What does Card Swap allowed do?
+It does two things,
+If one non-meal card is selected(say milk) and if in your hostel students are allowed to take milk twice a day then they can tap their ID cards twice and will show “YES” both the times, and no from third time onwards. If two or more non-meal cards are selected (say milk and fruit), then you can take either milk twice, or fruit twice or once milk and once fruit
+Click next once you have entered the required details.
+      1. Tap on the settings icon and click update app to install the latest version of mess-i
+      1. Your app is ready to use!
+Syncing Data
+      * Syncing of data involves downloading data on fresh rebates and uploading meals taken during internet outages.
+      * Syncing automatically begins when the app is opened. Syncing can be started by clicking the sync icon 🔄 on the top right corner. It is recommended to sync every 24 hours to keep the rebates updated.
+      * Sync can fail due to bad internet connectivity or server error. If the error persists, please contact us.
+      * In case sync was not donein the last 24 hours or if there are data to be uploaded, the sync icon 🔄 will turn into a warning icon ⚠. Please make sure you sync the device at the earliest as this can lead to problems with rebates. You can initiate sync by clicking on the icon.
+      * Hard sync for images -
+How do you use it?
+Meal can be taken by tapping the ID card or using InstiApp
+      * ID Card - Tap the ID card on the NFC scanner.
+
+If you are using it for the first time, you would be prompted to scan the bar code on your ID card. This is a one-time process.
+
+Your name and details would appear on the tablet and you can take your meal.
+
+      * InstiApp - We understand that you might not always have your ID card with you.
+
+In such cases, you can use InstiApp to take your meal. Make sure you have the latest version of the InstiApp Playstore:https://play.google.com/store/apps/details?id=app.insti.flutter&pcampaignid=web_share
+
+ Appstore: https://apps.apple.com/in/app/instiapp-iit-bombay/id1632279563
+
+ installed and that you have logged in.
+
+You can scan the QR code in Mess→Take Your Meal→ Take Your Meal to take your meal.
+
+FAQS/Common Issues
+         1. ID card is not recognised - If the NFC scanner does not respond to your ID card, it is because the NFC chip in the ID card has stopped working. Please visit the ID card office in the main building to resolve this issue. Meanwhile you can use InstiApp to take your meals.
+         2. The hostel is not updated - If the tablet is showing that you are in a different hostel, then please contact the hall manager to make sure that this data is updated in ASC.
+         3. Different person shows up while scanning - Scan again. If this does not work, write to us at devcom@iitb.ac.in with the roll number of the person shown when you scan.
+         4. Data not Syncing Successfully -
+         * Sync can fail due to bad internet connectivity or server error. Please ensure a good internet connection is present when the tablet attempts to sync.
+         * Try clearing the app cache.
+         * If the error persists, please contact us.
+         5. Images not loading - You will have to perform hard sync to load all of the images
+         6. “Server says NOT FOUND” - this error happens when the ID card is being tapped for the first time. You will have to scan the barcode of your ID card. If the same error appears after scanning the bar code. Please note the roll number and contact us.
+         7. “Server says Bad Gateway” - this appears in two cases. Please notify us if this happens frequently
+         * There is no internet connection
+         * Server is down
+         8. “Unable to contact servers” - this appears when there is no internet connection or if the internet connection is very weak
+         9. “QR Code Expired” -If the meal is taken using InstiApp, this means that the QR code expired
+         10. How to update the app? - The app can be updated by clicking on the Update App button in the settings page. It is recommended that the app be updated once a new update is announced to ensure smooth functioning.
+         1. Invalid Token - Correct the Date and Time of the tablet so that it matches the actual current time and reopen the app; if the issues still persist, contact us.
+
+
+
+
+
+
+
+
+
+
+Troubleshooting NFC Scanner Issues
+
+
+         * The scanning section of the system consists of NFC Scanner (13.56MHz) - https://www.amazon.in/gp/product/B093C9WKDR/ref=ppx_yo_dt_b_asin_title_o00_s01? ie=UTF8&psc=1
+         * USB A (Male) to USB 2.0 Mini - https://www.amazon.in/AmazonBasics-USB-2-0-Cable- Male/dp/B00NH11N5A?th=1
+         * Adapter to USB C - https://www.amazon.in/gp/product/B09Q93XFQV/ref=ppx_yo_dt_b_asin_title_o00_s00? ie=UTF8&psc=1
+Failure in any of these components can cause the scanning section to fail. If any of the components fail, please reach out to us. We maintain a stock of these in case of emergencies. We can lend it till you buy the replacement.
+Problems and Solutions
+Red light does not appear when connected to the tablet
+         * Red light does not appear when connected to the tablet
+         1. Check the connections and make sure there are no loose connections
+         2. Check if the connection cable and the adapter are working, if the cable
+         3. If there are no loose connections and the cable and adapter are working, please contact us ASAP
+         * Red light appears but the scanner does not respond (by vibrating or flashing green light)
+         1. Check the connections and make sure there are no loose connections
+         2. Check if the connection cable and the adapter are working, if the cable
+         3. Connect the NFC scanner to a laptop. Open notepad and scan an ID card. If something gets displayed on the notepad, it is problem with the app, please contact us ASAP
+
+
+
+
+
+
+Mess-i User Manual
+
+
+Mess-i is a system to digitalize the mess system in our hostels developed by DevCom.
+Syncing Data
+         * Syncing of data involves downloading data on fresh rebates and uploading meals taken during internet outages.
+         * Syncing automatically begins when the app is opened. Syncing can be started by clicking the sync icon 🔄 on the top right corner. It is recommended to sync every 24 hours to keep the rebates updated.
+         * Sync can fail due to bad internet connectivity or server error. If the error persists, please contact us.
+         * In case sync was not donein the last 24 hours or if there are data to be uploaded, the sync icon 🔄 will turn into a warning icon ⚠. Please make sure you sync the device at the earliest as this can lead to problems with rebates. You can initiate sync by clicking on the icon.
+Taking The Meal
+         * Meal can be taken by tapping the ID card or using InstiApp
+
+         * If ID card is being used for the first time, a barcode scanner would open. Scan the barcode on the backside of ID card. Please make sure that the ID card tapped and the barcode scanned is of the same ID card. This is a one-time process as long as they don’t change the ID card.
+
+Errors that can happen during the process are:
+
+            * “Server says NOT FOUND” - this error happens when the ID card is being tapped for the first time. If the same error appears after scanning the bar code. Please note the roll number and contact us.
+            * “Server says Bad Gateway” - this appears in two cases. Please notify us if this happens frequently
+            * There is no internet connection
+            * Server is down
+            * “Unable to contact servers” - this appears when there is no internet connection or if the internet connection is very weak
+            * If the meal is taken using InstiApp, potential errors could be
+
+               * “QR Code Expired” - This means that QR code has expired
+               * If it is anything else please notify us at the earliest
+               * After the scanning phase, the algorithm checks for rebate and if the student is allowed in the mess (in that order). If a student is in rebate then they will not be allowed to take meals regardless of whether they are allowed in the mess.
+
+                  * This part of the process will work without internet
+Meal Stats and Updating
+                  * Meal stats for a day can be viewed by selecting the date by clicking on the date. This feature requires an internet connection
+                  * The app can be updated by clicking on the Update App button. It is recommended that the app be updated once a new update is announced to ensure smooth functioning
+FAQs
+How to use it?
+                  * ID Card - Tap the ID card on the NFC scanner. If you are using it for the first time, you would be prompted to scan the bar code on your ID card. This is a one-time process. Your name and details would appear on the tablet and you can take your meal.
+                  * InstiApp - We understand that you might not always have your ID card with you. In such cases, you can use InstiApp to take your meal. Make sure you have the latest version of the InstiApp (https://play.google.com/store/apps/details?id=app.insti.flutter&hl=en&gl=US) installed and that you have logged in. You can scan the QR code in Mess→Take Your Meal→ Take Your Meal to take your meal.
+What are the problems that can happen?
+                  * ID card is not recognised - If the NFC scanner does not respond to your ID card, it is because the NFC chip in the ID card has stopped working. Please visit the ID card office in the main building to resolve this issue. Meanwhile you can use InstiApp to take your meals.
+                  * The hostel is not updated - If the tablet is showing that you are in a different hostel, then please contact the hall manager to make sure that this data is updated in ASC.
